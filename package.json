@@ -1,0 +1,20 @@
+{
+  "name": "drive-folder-tree",
+  "version": "0.1.0",
+  "description": "Generates a folder tree from the Google Drive REST API files.list endpoint",
+  "main": "index.js",
+  "repository": "https://github.com/laudeon/drive-folder-tree.git",
+  "author": "laudeon",
+  "license": "MIT",
+  "scripts": {
+    "start": "DEBUG=* DEBUG_DEPTH=10 node index.js"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "google-auth-library": "^1.3.1",
+    "googleapis": "^27.0.0",
+    "opn": "^5.2.0",
+    "server-destroy": "^1.0.1"
+  }
+}
